@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User is on Login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User opens the Web browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User hits the URL \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User is redirected to the Login page with Title \"OrangeHRM\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Validate login functionality",
+        "description": "",
+        "id": "this-is-the-login-page-for-the-demoblaze-product-store-application-login-page-test-cases;validate-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User enter valid username as \"Admin\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "User enter valid password as \"admin123\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "User clicks on Login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "User is redirected to homepage",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "This is the Login page for the DemoBlaze product store application login page Test cases",
+    "description": "",
+    "id": "this-is-the-login-page-for-the-demoblaze-product-store-application-login-page-test-cases",
+    "keyword": "Feature",
+    "uri": "loginPage.feature"
+  }
+]
