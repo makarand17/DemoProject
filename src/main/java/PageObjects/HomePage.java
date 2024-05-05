@@ -11,7 +11,7 @@ public class HomePage {
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		System.out.println("-------------------------------- Inside DashboardPage Constructor   -------------------------------");
-
+		System.out.println("Added message on github repository");
 	}
 	
 	
